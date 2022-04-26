@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('SCM Checkout') {
             steps{ 
-          git "https://github.com/Basant-Web-Project/weather-service"
+               git "https://github.com/Basant-Web-Project/weather-service"
             }
         }
         stage ('Build') {
